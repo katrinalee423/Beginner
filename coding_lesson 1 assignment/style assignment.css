@@ -1,0 +1,67 @@
+#center{text-align: center;}
+body{font-family: sans-serif;;font-size:12px; }
+img {width:200px; border-radius: 50%;}
+#left{text-align: left;}
+#right{text-align: right;}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;}
+
+  p {width: 40%;
+  margin: 0 10vw 10vh 10vw;
+  font-size: 2em;}
+
+ul {
+  list-style: none;
+  display: flex;}
+
+  #lower {
+  margin-top: 7%;}
+
+#lowest {margin-top: 14%;}
+
+#contrast {background-color:black;
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;}
+
+  <div class="contrast">
+   <h2><em>What do you need to create a website?</em></h2>
+   <ul>
+     <li>A computer</li>
+     <li>A text editor</li>
+     <li>A web browser</li>
+     <li>Some HTML, CSS and JS files</li>
+   </ul>
+ </div>
+
+ div.contrast {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+/* Getting snazzy... */
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}

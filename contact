@@ -1,0 +1,26 @@
+
+<html>
+<head>
+  <title> Katrina Lee Contact </title>
+<link href="style.css" rel="stylesheet" />
+  </head>
+
+ <body>
+  <h1 style="color:green;">
+    Contact me
+  </h1>
+<p class="red-section font-size">Get in touch!</P>
+<p style="font-size:30px;">
+  Contact me by email at <a href="katrinalee423@hotmail.com">katrinalee423@hotmail.com</a>
+</p>
+
+
+
+
+
+
+  <img style="width:500px;"src="https://i.imgflip.com/y9gt2.jpg"alt="cancer genomics"/>
+
+ </body>
+
+</html>
